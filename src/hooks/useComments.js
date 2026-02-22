@@ -1,6 +1,6 @@
 // src/hooks/useComments.js
 import { useState, useEffect } from 'react';
-import { ref, push, onValue, serverTimestamp } from 'firebase/database';
+import { ref, push, onValue } from 'firebase/database';
 import { db } from '../services/firebase';
 
 export const useComments = (animeId) => {
